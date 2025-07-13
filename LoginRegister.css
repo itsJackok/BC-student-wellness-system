@@ -1,0 +1,106 @@
+body {
+
+            font-family: "Poppins";
+            background: #f0f2f5;
+            min-height: 100vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+ }
+
+
+.container{
+    max-width: 850px;
+    height: 100%;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2)
+}
+
+.container .form{
+    max-width: 850px;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+.container .form-content {
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+}
+
+.back {
+   margin-left: 310px;
+}
+
+.back:hover{
+   text-transform:lowercase;
+}
+
+.form-content .login-form, .form-content .register-form
+         {
+            background-color: #fff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+form .form-content .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+
+}
+
+form .form-content .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background: #5e32c2;
+
+}
+
+form .form-content .input-boxes{
+            margin-top: 30px;
+        }
+
+.form-content .input-box input{
+            height: 100%;
+            outline-color: none;
+            border: none;
+            padding: 0 30px;
+            font-size: 14px;
+            font-weight: 500px;
+            border-bottom: 2px solid rgba(0,0,0,0.2);
+
+        }
+
+form .form-content .button input{
+            width: 100%;
+            background-color: #7a42f4;
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: all 0.4s ease;
+        }
+
+
+ form .form-content .button input:hover{
+            background-color: pink;
+        }
+
+
+.register-link :hover{
+            text-decoration:blue;
+ }
+

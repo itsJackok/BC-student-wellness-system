@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-image: url(../image/Homepage.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    font-family:sans-serif;
+    user-select: none;
+
+}
+
+
+.center h1{
+    color: white;
+}
+
+.center .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.center .btn{
+    color: white;
+    position: relative;
+    top: 34px;
+    left: 37%;
+    height: 30px;
+    width: 15%;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background: #9b8fb8;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(252, 55, 55, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.center .btn:hover {
+    background-color: #7a42f4;
+}
+
+.center .btn a:hover {
+    color: white;
+    text-decoration: none;
+}
