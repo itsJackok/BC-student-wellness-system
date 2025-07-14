@@ -13,26 +13,28 @@
     <div class="background"></div>
 <div class = "container">
     <div class="back"><a href="index.jsp">Back to Home</a></div>
-    <form action="#">
+
+    <form action="LoginServlet" method="post">
+
         <div class="form-content">
         <div class="login-form">
             <div class="title">Student Login</div>
                 <div class="input-boxes">
 
                      <div class="input-box">
-          <input type="text" placeholder = "Enter your email" required><br><br>
+          <input type="text" name= "email" placeholder = "Enter your email" required><br><br>
           </div>
 
         <div class="input-box">
-          <input type="text" placeholder = "Enter your password" required><br><br>
+          <input type="text" name = "password" placeholder = "Enter your password" required><br><br>
           </div>
 
  <div class="button input-box">
 
-          <input type="submit" value = "submit"><br><br>
+          <input type="submit" value = "Login"><br><br>
           </div>
         <div class="register-link">
-           Don't have an account? <a href="register.jsp">Register here</a>
+           No account? <a href="register.jsp">Register here</a>
         </div>
 
     </div>
